@@ -1,0 +1,269 @@
+/* //////////////////////// */
+/* NAVIGATION */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  max-width: 28.8rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #000;
+  font-size: 2.4rem;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #00acac;
+}
+
+.nav-link-home:link {
+  background-color: rgb(0, 172, 172, 0.22);
+  padding: 0.3rem 1.4rem 0.3rem 1.4rem;
+  border-radius: 16px;
+}
+
+.nav-link-home:hover {
+  color: #000;
+  background-color: rgb(0, 172, 172, 0.5);
+}
+
+/* //////////////////////// */
+/*HERO*/
+
+.section-hero {
+  position: relative;
+}
+
+.hero-img {
+  max-width: 60rem;
+}
+
+.hero-img-box {
+  position: absolute;
+  top: 14rem;
+  left: 0;
+}
+
+.hero-blue-box {
+  background-color: #00acac;
+  padding: 24rem 12rem 1rem;
+}
+
+.hero-text-box {
+  display: block;
+  margin-left: auto;
+  max-width: 66rem;
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.hero-white-box {
+  padding-right: 12rem;
+  padding-bottom: 3rem;
+}
+
+.white-box-content {
+  display: grid;
+  gap: 10rem;
+  margin-left: auto;
+  max-width: 60rem;
+  justify-content: center;
+  justify-items: center;
+}
+
+.hero-logo {
+  max-width: 40rem;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 8rem;
+}
+
+.hero-btn {
+  width: 30rem;
+}
+
+/* //////////////////////// */
+/* PRODUCT DESCRIPTION*/
+
+.product-description {
+  background-color: rgb(98, 244, 244, 0.3);
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 10rem 6rem;
+  font-weight: 400;
+}
+
+.product-description--1 {
+  margin-bottom: 4rem;
+}
+
+/* //////////////////////// */
+/* FEATURES */
+
+.container-features {
+  padding: 8rem 3rem;
+}
+
+.features-img {
+  display: block;
+  margin: 0 auto;
+  max-width: 85rem;
+  width: 100%;
+}
+
+/* //////////////////////// */
+/* FORM */
+
+.container-form {
+  padding: 8rem 20rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+
+.label {
+  font-size: 2.4rem;
+}
+
+.input {
+  background-color: rgb(98, 244, 244, 0.2);
+  height: 7rem;
+  width: 100%;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 4.6rem;
+}
+
+.input-reason {
+  width: 100%;
+}
+
+.input-message {
+  width: 100%;
+  height: 32rem;
+}
+
+.form-privacy-policy {
+  display: flex;
+  gap: 1.3rem;
+  align-items: center;
+}
+
+.form-privacy-text {
+  margin-bottom: 3.2rem;
+}
+
+.privacy-policy {
+  color: #00acac;
+}
+
+.privacy-policy:hover {
+  color: #3b8b8b;
+  text-decoration: underline;
+}
+
+.label-privacy {
+  color: #8e0909;
+}
+
+.form-checkbox[type="checkbox"] {
+  height: 3.6rem;
+  width: 3.6rem;
+  border: 1px black solid;
+}
+
+.submit-btn {
+  background-color: #00acac;
+  color: #fff;
+  margin-top: 3.2rem;
+  padding: 1rem 4.25rem;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #3b8b8b;
+}
+
+/* //////////////////////// */
+/* FOOTER */
+
+.footer-main {
+  background-color: #000;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 300;
+}
+
+.footer-main-box {
+  display: flex;
+  gap: 7.4rem;
+  padding-top: 4.1rem;
+  padding-left: 4.1rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 3.8rem;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-downloads {
+  display: flex;
+  padding: 8.5rem 6.5rem 4.1rem;
+}
+
+.footer-btns {
+  display: flex;
+  gap: 13.7rem;
+  margin-left: auto;
+}
+
+.footer-btn {
+  max-width: 28.1rem;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 4.6rem;
+  margin: 1.8rem 0 1.8rem 2.3rem;
+}
+
+.footer-logo:hover {
+  color: #3b8b8b;
+}
+
+.footer-logo {
+  font-size: 4.8rem;
+}

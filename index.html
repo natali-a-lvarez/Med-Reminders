@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/phosphor-icons"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" href="scrip.js" />
+
+    <title>Med Responsive</title>
+  </head>
+  <body>
+    <header class="header container">
+      <!-- <button class="btn-mobile-nav">
+        <i class="ph-list icon-nav icon-mobile-nav"></i>
+        <i class="ph-x icon-nav icon-mobile-nav"></i>
+      </button> -->
+
+      <img class="nav-logo" src="img/Logo.png" alt="med reminder logo" />
+      <nav>
+        <ul class="nav-list">
+          <li><a class="nav-link nav-link-home" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">About</a></li>
+          <li><a class="nav-link" href="#">Features</a></li>
+          <li><a class="nav-link" href="#">Contact Us</a></li>
+          <li><a class="nav-link" href="#">Get the app</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-hero">
+      <div class="hero-img-box">
+          <img class="hero-img" src="img/hero-img.png" alt="med reminders app on iphonw screen" />
+      </div>
+      <div class="hero-box">
+        <div class="hero-blue-box">
+          <div class="hero-text-box">
+            <p class="hero-text">
+              Why be worried about forgetting to take your medicine when you have
+            </p>
+          </div>
+        </div>
+        <div class="hero-white-box">
+            <div class="white-box-content">
+              <img
+              class="hero-logo"
+              src="img/logo-text.png"
+              alt="Med responsive logo"
+              />
+            <div class="hero-btns">
+              <a href="#"><img class="hero-btn" src="img/app-store.png" alt="download app in app store button"></a>
+              <a href="#"><img class="hero-btn" src="img/google-play.png" alt="download with google play button"></a>
+            </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="product-description">
+          <p class="product-description--1">Medreminder is a free pill reminder and medication tracker app. You may make doctor's appointments, learn more about the medications you're taking and their side effects, track your health, and share your health status with your family and friends. Up to three people profiles can be added in an account at once, and anyone from anywhere in the world can view your loved one's account by invitation.</p>
+          <p class="product-description--2">Join the hundreds of satisfied users who see our app as the greatest of all medication reminder apps.</p>
+        </div>
+      </section>
+
+      <section class="section-features">
+        <div class="container-features">
+          <h2 class="heading-secondary">Features</h2>
+          <img class="features-img" src="img/features.png" alt="diagram showing the different features of the med reminders application" />
+       </div>
+      </section>
+
+      <section class="section-form">
+        <div class="container-form">
+          <h2 class="heading-secondary">Contact Us</h2>
+          <form class="form">
+            <div class="form-grid">
+              <div class="form-inputs">
+                <label for="name" class="label">First Name</label>
+                <input class="input"  type="name" name="name" id="name" required>
+              </div>
+              <div class="form-inputs">
+                <label for="last-name" class="label">Last Name</label>
+                <input class="input"  type="" name="last-name" id="last-name" required>
+              </div>
+              <div class="form-inputs">
+                <label for="email" class="label">Email</label>
+                <input class="input"  type="email" name="email" id="email" required>
+              </div>
+              <div class="form-inputs">
+                <label for="number" class="label">Phone number (optional)</label>
+                <input class="input"  type="number" name="number" id="number">
+              </div>
+            </div>
+              <div class="form-inputs">
+                <label for="reason" class="label">Reason</label>
+                <input class="input input-reason"  type="text" name="reason" id="reason" required>
+              </div>
+              <div class="form-inputs">
+                <label for="message" class="label">Your message</label>
+                <input class="input input-message"  type="text" name="message" id="reason" required>
+              </div>
+              <p class="label form-privacy-text">By submitting your information, you agree to our <a  class="privacy-policy" href="#">Privacy Policy</a>.</p>
+              <div class="form-privacy-policy">
+                <input class="form-checkbox" type="checkbox" name="terms" required>
+                <label class="label label-privacy">Agree to  terms and conditions</label>
+              </div>
+              <div>
+                <button class="submit-btn">Submit</button>
+              </div>  
+          </form>
+      </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-main">
+          <div class="footer-main-box">
+            <div class="footer-copyright">
+              <p class="copyright">&copy; MEDREMINDER 2022</p>
+            </div>
+            <div class="footer-links">
+              <ul>
+                <li><a class="footer-link">Resources</a></li>
+                <li><a class="footer-link">Surveys</a></li>
+                <li><a class="footer-link">Press Releases</a></li>
+                <li><a class="footer-link">Careers</a></li>
+              </ul>
+            </div>
+          </div>
+
+        <div class="footer-downloads">
+          <div class="footer-btns">
+            <a href="#" ><img class="footer-btn" src="img/footer-app.png" alt="download app in app store button"></a>
+            <a href="#" ><img class="footer-btn" src="img/footer-google.png" alt="download with google play button"></a>
+          </div>
+        </div>
+        </div>
+        <div class="footer-logos">
+          <!-- <img class="logo-img" src="img/footer-logos.png" alt="instagram logo" /> -->
+          <a><i class="ph-instagram-logo footer-logo"></i></a>
+          <a><i class="ph-twitter-logo footer-logo"></i></a>
+          <a><i class="ph-facebook-logo footer-logo"></i></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
