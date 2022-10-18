@@ -1,4 +1,4 @@
-# Med-Responsive
+# Med-Reminders
 
 This project is a startup website for an app that reminds you to take your medicines. 
 
